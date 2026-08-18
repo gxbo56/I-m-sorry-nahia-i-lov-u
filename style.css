@@ -166,15 +166,20 @@ button {
 
 
 /* NO */
-
 #noButton {
-
     color: #777;
-
     background: #eeeeee;
+
+    position: relative;
+    z-index: 9999;
+
+    user-select: none;
+    -webkit-user-select: none;
+
+    touch-action: none;
+
+    transition: left 0.15s ease, top 0.15s ease, transform 0.15s ease;
 }
-
-
 /* =========================
    CORAZONES
 ========================= */
